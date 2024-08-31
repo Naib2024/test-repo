@@ -1,0 +1,253 @@
+@font-face {
+  font-family: Opensans;
+  src: url(../font/static/OpenSans-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.headbox {
+  background: url(../img/image\ 18.svg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+}
+
+.contanier {
+  max-width: 80vw;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+nav .right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+nav .right a {
+  color: white;
+  font-family: opensans;
+}
+nav .right a:hover {
+  border-bottom: 2px solid white;
+}
+
+.smp {
+  color: white;
+  width: 60%;
+  padding: 10px;
+  font-family: opensans;
+  margin-top: 60px;
+}
+.smp p {
+  color: grey;
+}
+.smp h1 {
+  padding-top: 40px;
+}
+.smp .contact a {
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: 40px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+.smp .contact a:hover {
+  background-color: #0193DC;
+  color: white;
+}
+
+.sambutan {
+  margin-top: 20px;
+}
+.sambutan .contanier {
+  display: flex;
+  gap: 20px;
+}
+.sambutan .contanier .left img {
+  border-radius: 10px;
+}
+.sambutan .contanier .right {
+  padding: 50px;
+  font-family: opensans;
+}
+.sambutan .contanier h2 {
+  width: 52%;
+  line-height: 35px;
+}
+.sambutan .contanier p {
+  padding-top: 30px;
+  color: grey;
+  line-height: 30px;
+}
+.sambutan .contanier a {
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #0193DC;
+  border-radius: 5px;
+  color: #0193DC;
+}
+.sambutan .contanier a:hover {
+  background-color: #0193DC;
+  color: white;
+}
+
+.profil {
+  background-color: #F9FBFD;
+  margin-top: 50px;
+  font-family: opensans;
+}
+.profil .contanier {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+  justify-content: space-between;
+}
+.profil .contanier .left {
+  border-right: 1px solid gray;
+  width: 45%;
+  padding: 40px;
+}
+.profil .contanier .left h3 {
+  padding-top: 60px;
+}
+.profil .contanier .left p {
+  padding-top: 30px;
+  width: 65%;
+  line-height: 30px;
+}
+.profil .contanier .left a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #0193DC;
+  margin-top: 20px;
+  color: #0193DC;
+  border-radius: 5px;
+}
+.profil .contanier .left a:hover {
+  background-color: #0193DC;
+  color: white;
+}
+.profil .contanier .right {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-template-rows: repeat(2, 230px);
+  gap: 20px;
+}
+.profil .contanier .right .rightBox {
+  box-shadow: -2px -2px 5px -3px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  font-family: opensans;
+  background-color: white;
+  border-radius: 5px;
+}
+.profil .contanier .right .rightBox i {
+  padding-top: 20px;
+  font-size: 30px;
+}
+.profil .contanier .right .rightBox h3 {
+  padding-top: 30px;
+}
+.profil .contanier .right .rightBox p {
+  padding-top: 20px;
+  color: gray;
+}
+
+.berita {
+  margin-top: 20px;
+}
+.berita .search {
+  display: flex;
+  font-size: 30px;
+  gap: 10px;
+}
+.berita .searchbox {
+  display: flex;
+  justify-content: space-around;
+}
+.berita .searchbox .left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+.berita .searchbox .left .leftBox {
+  display: flex;
+  padding: 10px;
+  font-family: opensans;
+}
+.berita .searchbox .left .leftBox p {
+  padding: 15px;
+}
+.berita .searchbox .left .leftBox h3 {
+  padding: 15px;
+  padding-top: 15px;
+}
+.berita .searchbox .left .leftBox i {
+  position: relative;
+  left: 90%;
+}
+.berita .rightBox {
+  display: flex;
+  font-family: opensans;
+}
+.berita .rightBox div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  padding: 20px;
+}
+.berita .rightBox div i {
+  position: relative;
+  left: 85%;
+}
+.berita .rightBox div p {
+  color: gray;
+}
+.berita .rightBox div i {
+  position: relative;
+  left: 85%;
+  bottom: 80%;
+}
+
+.gallery {
+  background-color: #F9FBFD;
+  padding: 20px;
+  margin-top: 40px;
+}
+.gallery .contanier {
+  align-items: center;
+}
+.gallery .contanier h2 {
+  font-family: opensans;
+  padding: 20px;
+  font-size: 30px;
+}
+.gallery .contanier .img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+.gallery .contanier .lebih {
+  text-align: center;
+}
+.gallery .contanier .lebih a {
+  border: 1px solid #0193DC;
+  padding: 10px 20px;
+  color: #0193DC;
+  font-family: opensans;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.gallery .contanier .lebih a:hover {
+  background-color: #0193DC;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
