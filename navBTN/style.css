@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --body-color: #e4e9f7;
+    --nav-color: #4070f4;
+    --side-color: #010718;
+    --text-color: #fff;
+    --search-color: #f2f2f2;
+    --search-text: #010718;
+}
+
+body {
+    width: 100vh;
+    background-color: var(--body-color);
+}
+
+body.dark {
+    --body-color: #18191a;
+    --nav-color: #242526;
+    --side-color: #242526;
+    --text-color: #ccc;
+    --search-color: #242526;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: var(--nav-color);
+    z-index:100;
+}
+
+nav .navbar {
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--nav-color);
+    margin: auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .menu .navLinks li {
+    list-style: none;
+}
+
+.navbar .menu .navLinks li a {
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 10px;
+}
+
+.menu .logo-toggle{
+display: none;
+}
+
+nav .navbar .sidebarOpen{
+    color: var(--text-color);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .navbar .logo a {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.navbar .logo a::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+}
+
+.navLinks li a::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(50%);
+    bottom: 0;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.navbar .menu .navLinks li:hover a::before {
+    opacity: 1;
+}
+
+.navbar .darklight-serchBox {
+    display: flex;
+    align-items: center;
+}
+
+.darklight-serchBox .dark-light,
+.darklight-serchBox .searchToggle {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.dark-light i,
+.searchToggle i {
+    position: absolute;
+    color: var(--text-color);
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.darklight-serchBox .dark-light i:last-child {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.darklight-serchBox .dark-light.active i:last-child {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.darklight-serchBox .dark-light.active i:first-child {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.darklight-serchBox .searchToggle i:first-child {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.darklight-serchBox .searchToggle.active i:first-child {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.darklight-serchBox .searchToggle.active i:last-child {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchBox{
+    position: relative;
+}
+
+.searchBox .search-field{
+    position: absolute;
+    bottom: -85px;
+    right: 5px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav-color);
+    padding: 3px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.searchToggle.active ~ .search-field{
+    bottom: -74px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.search-field::before{
+    content: '';
+    position: absolute;
+    right:14px;
+    top: -4px;
+    height: 12px;
+    width: 12px;
+    background-color: var(--nav-color);
+    transform: rotate(-45deg);
+    z-index: -1;
+
+}
+
+.search-field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 45px 0 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--search-text);
+    
+}
+
+.search-field i{
+    position: absolute;
+    color: var(--nav-color);
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}

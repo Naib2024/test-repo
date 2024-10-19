@@ -1,0 +1,246 @@
+@font-face {
+    font-family: syne;
+    src: url(../font/Syne/static/Syne-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: syne;
+}
+
+.contanier {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.navigation .contanier {
+    display: flex;
+    border-bottom: 1px solid;
+    justify-content: space-between;
+    padding: 7px;
+
+}
+
+.navigation .second {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+.navigation .second .navBtn {
+    display: flex;
+    gap: 30px;
+    border-right: 1px solid;
+    padding-right: 40px;
+    align-items: center;
+    
+
+}
+
+.navigation .second .navBtn a {
+    font-size: 15px;
+    color: black;
+    padding-left: 20px;
+}
+
+.navigation .second .talk {
+    padding: 7px;
+    background-color: black;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.navigation .second .talk a{
+color: white;
+
+}
+.navigation .second .icon{
+    font-size: 30px;
+    border-left: 3px solid;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.digital .contanier{
+    border-bottom: 2px solid;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.digital .up .first{
+    padding-top: 50px;
+    
+}
+
+.digital .up .first img{
+    width: 35%;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+}
+
+.digital .up .second{
+    width: 48%;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    font-family: syne;
+}
+
+.digital .down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.digital .down .left{
+    width: 30%;
+    margin-top: 60px;
+}
+
+.digital .down .left a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.digital .down .right img{
+    border-radius: 10px;
+}
+
+.over .contanier {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.over .contanier .left{
+    width: 20%;
+    padding: 15px 0;
+    border-right: 1px solid;
+}
+
+.over .contanier .right{
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middleBox .contanier{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    border-top: 2px solid;
+    padding: 60px 0 ;
+    border-bottom: 2px solid;
+    
+}
+
+.middleBox .contanier .left{
+    width: 26%;
+
+}
+
+.middleBox .contanier .left h2{
+    font-size: 30px;
+    width: 70%;
+    padding: 7px 0 18px 0 ;
+}
+
+.middleBox .contanier .left a{
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.middleBox .contanier .right{
+   border: 1px solid;
+   display: grid;
+   /* grid-template-columns: repeat(2, 400px);
+   grid-template-rows: repeat(2, 400px); */
+}
+
+
+.middleBox2 .contanier{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding: 20px;
+
+}
+
+.middleBox2 .contanier .left{
+    width: 26%;
+}
+
+.middleBox2 .contanier .left h1{
+    font-size: 30px;
+    width: 70%;
+    padding: 7px 0 18px 0 ;
+}
+
+.middleBox2 .contanier .left a{
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.middleBox2 .contanier .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.middleBox2 .contanier .right .first{
+    background-color: black;
+    border-radius: 12px;
+}
+
+.middleBox2 .contanier .right .first img{
+    border-radius: 12px;
+}
+.middleBox2 .contanier .right .first .firstPart{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+
+.middleBox2 .contanier .right .first .firstPart{
+    color: white;
+}
+
+.middleBox2 .contanier .right .first .firstPart .first2Part a{
+   padding: 6px 12px;
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+}
+
+.middleBox2 .contanier .right .second img{
+border-radius: 12px;
+}
+
+.middleBox2 .contanier .right .third img{
+    border-radius: 12px;
+
+}
+
+
