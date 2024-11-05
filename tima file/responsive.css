@@ -1,0 +1,14 @@
+@media(max-width:800px) {
+
+    nav{
+        margin: 10px 20px;
+    }
+
+    .link{
+        display: none;
+    }
+   
+    .navBtn{
+        display: block;
+    }
+}
