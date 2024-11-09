@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contanier {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contanier .head{
+    background-color: yellow;
+    padding: 10px;
+    h2{
+        text-align: center;
+        
+    }
+}
+
+#compContanier{
+    border: 1px solid;
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 10px; */
+    
+}
+
+.table td, .table th {
+    white-space: nowrap; /* Prevent text from wrapping in table cells */
+    text-align: center; /* Optional: Center-align text */
+}
+
+
+button a{
+    text-decoration: none;
+    color: black;
+}

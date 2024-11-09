@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "marka": "Dell",
+      "model": "XPS 13",
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "hard_drive": "1TB SSD",
+      "screen_size": "13.3",
+      "operating_system": "Windows 11"
+    },
+    {
+      "id": "3",
+      "marka": "Lenovo",
+      "model": "ThinkPad X1 Carbon",
+      "processor": "Intel Core i5",
+      "ram": "8GB",
+      "hard_drive": "256GB SSD",
+      "screen_size": "14",
+      "operating_system": "Windows 10"
+    },
+    {
+      "id": "4",
+      "marka": "Apple",
+      "model": "MacBook Pro 13",
+      "processor": "Apple M1",
+      "ram": "8GB",
+      "hard_drive": "256GB SSD",
+      "screen_size": "13.3",
+      "operating_system": "macOS"
+    },
+    {
+      "id": "5",
+      "marka": "Asus",
+      "model": "ZenBook 14",
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "hard_drive": "512GB SSD",
+      "screen_size": "14",
+      "operating_system": "Windows 11"
+    },
+    {
+      "id": "6",
+      "marka": "Acer",
+      "model": "Predator Helios 300",
+      "processor": "Intel Core i9",
+      "ram": "32GB",
+      "hard_drive": "1TB SSD",
+      "screen_size": "15.6",
+      "operating_system": "Windows 11"
+    },
+    {
+      "id": "7",
+      "marka": "Microsoft",
+      "model": "Surface Laptop 4",
+      "processor": "Intel Core i5",
+      "ram": "8GB",
+      "hard_drive": "512GB SSD",
+      "screen_size": "13.5",
+      "operating_system": "Windows 11"
+    },
+    {
+      "id": "8",
+      "marka": "Samsung",
+      "model": "Galaxy Book Pro",
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "hard_drive": "512GB SSD",
+      "screen_size": "15.6",
+      "operating_system": "Windows 11"
+    },
+    {
+      "id": "9",
+      "marka": "Razer",
+      "model": "Blade 15",
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "hard_drive": "1TB SSD",
+      "screen_size": "15.6",
+      "operating_system": "Windows 11"
+    },
+    {
+      "id": "4a45",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "2e73",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "dee0",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "dc20",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "bc64",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "4c19",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "5a6f",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "455a",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "636e",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "121b",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "7dde",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "dc7a",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "b92c",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    },
+    {
+      "id": "529d",
+      "marka": "",
+      "model": "",
+      "processor": "",
+      "ram": "",
+      "hard_drive": "",
+      "screen_size": "",
+      "operating_system": ""
+    }
+  ]
+}

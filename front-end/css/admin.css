@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    position: relative;
+    background-color: rgba(255, 180, 14, 0.8);
+    max-width: 1200px;
+margin: auto;
+    h1 {
+        text-align: center;
+
+    }
+}
+
+.loginForm form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: grey;
+
+    input {
+        width: 30%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+.row table {
+    max-width: 1400px;
+    margin: auto;
+}
+
+#logOut{
+    position: absolute;
+    left: 90%;
+    bottom:20%;
+}
+

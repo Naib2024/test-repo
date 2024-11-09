@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: url(https://i.ytimg.com/vi/oDG4truqCDo/maxresdefault.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+} */
+
+.row{
+    border: 1px solid;
+       
+}
